@@ -1,6 +1,7 @@
 /* shared styles */
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 .btn-primary {
@@ -17,4 +18,35 @@ body {
 /* banner related styles */
 .banner {
     display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    gap: 97px;
+    padding: 0 100px;
+    justify-content: space-between;
+    height: 850px;
+}
+
+.banner-details {
+    max-width: 708px;
+    padding: 197px 0 147px 0;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    height: 288px;
+    width: 708px;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.banner-pic {
+    width: 635px;
+    height: auto;
+    margin-top: 50px;
 }
