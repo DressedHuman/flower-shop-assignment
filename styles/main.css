@@ -1,0 +1,20 @@
+/* shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+
+
+/* banner related styles */
+.banner {
+    display: flex;
+}
