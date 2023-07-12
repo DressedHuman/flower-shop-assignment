@@ -14,8 +14,16 @@ body {
     border: 0;
 }
 
+.common-margin-container {
+    margin: 0 auto;
+}
 
-/* banner related styles */
+.common-margin {
+    margin-right: 24px;
+}
+
+
+/* banner section related styles */
 .banner {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
@@ -49,4 +57,117 @@ body {
     width: 635px;
     height: auto;
     margin-top: 50px;
+}
+
+
+/* featured flowers section related styles */
+.featured-details-container {
+    text-align: center;
+}
+
+.featured-details-container>h4 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+    margin-top: 178px;
+}
+
+.featured-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    width: 594px;
+    margin: 0 auto;
+}
+
+.featured ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured ul li {
+    list-style: none;
+    width: 464px;
+    margin-bottom: 128px;
+}
+
+.featured-item {
+    border-radius: 300px 300px 0px 0px;
+    height: 538px;
+    width: 464px;
+}
+
+#featured-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#featured-1 img {
+    padding: 110px 78px 0 76px;
+}
+
+#featured-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+#featured-2 img {
+    padding: 117px 47px 51px;
+}
+
+#featured-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+#featured-3 img {
+    padding: 67px 75px 0;
+}
+
+section ul li p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 32px;
+}
+
+
+/* hot deal section related styles */
+.hot-deal {
+    display: flex;
+    margin-top: 128px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    justify-content: space-between;
+    align-items: center;
+    height: 620px;
+}
+
+.hot-deal-details {
+    margin: 100px 186px 162px auto;
+    text-align: center;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.off {
+    color: #E55473;
+}
+
+.hot-deal-description {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.hot-deal-pic {
+    width: 318px;
+    height: 420px;
+    margin: 100px 0;
+    margin-right: auto;
 }
