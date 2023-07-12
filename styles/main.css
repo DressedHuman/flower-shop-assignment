@@ -240,3 +240,37 @@ section ul li p {
     background: #FFF;
     margin-right: 16px;
 }
+
+
+/* footer related styles */
+.footer-container {
+    text-align: center;
+    /* padding: 128px auto; */
+    height: 449px;
+    background: #111010;
+    margin-top: 128px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 128px;
+}
+
+#footer-title-part-2 {
+    color: #FFF;
+}
+
+.footer-description {
+    width: 625px;
+    margin: 24px auto 32px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    margin-bottom: 128px;
+}
