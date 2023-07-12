@@ -202,3 +202,41 @@ section ul li p {
 .instagram ul li {
     list-style: none;
 }
+
+/* subscription section related styles */
+.subscription {
+    text-align: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 449px;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+/* .subscription .subscription-details {
+    margin: 122px auto;
+} */
+
+.subscription .subscription-title {
+    padding: 128px 0 0;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.subscription .subscription-price {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.subscription #subscription-email {
+    padding: 23px 513px 22px 22px;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 16px;
+}
