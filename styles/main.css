@@ -171,3 +171,34 @@ section ul li p {
     margin: 100px 0;
     margin-right: auto;
 }
+
+/* instagram section related styles */
+.insta-details {
+    padding: 128px 0 48px;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.insta-description {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.instagram ul {
+    display: flex;
+    margin: 0 auto;
+}
+
+.instagram ul li {
+    list-style: none;
+}
